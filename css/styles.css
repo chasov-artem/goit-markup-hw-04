@@ -394,11 +394,11 @@ background-color: #404BBF;
     column-gap: 24px;
     row-gap: 48px;
     justify-content: center;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio-card {
     width: calc((100% - 48px) / 3);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio-card:hover {
